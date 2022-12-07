@@ -1,35 +1,37 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
+    "name": "Nicholas Carr",
     "label": "Student",
     "picture": "https://github.com/kambergjohnson.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
+    "email": "carrn7@hawaii.edu",
+    "phone": "808-633-6550",
     "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2024.",
+    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2023.",
     "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
-      { "network": "github", "username": "mmaluhia", "url": "http://github.com/changeme" },
-      { "network": "linkedin", "username": "mollymaluhia", "url": "http://linkedin.com/in/changeme" },
-      { "network": "twitter", "username": "mollymal", "url": "http://twitter.com/changeme" },
-      { "network": "instagram", "username": "molly", "url": "http://instagram.com/changeme" }
+      { "network": "github", "username": "nicholasbcarr", "url": "http://github.com/nicholasbcarr" },
+      { "network": "linkedin", "username": "nicholas-carr", "url": "http://linkedin.com/in/nicholas-carr-b48460168/" }
     ]
   },
   "interests": [
-    { "name": "Interactive media" },
-    { "name": "Neuromorphic Computing" },
-    { "name": "Quantum Computing" },
-    { "name": "Robotics" },
-    { "name": "3D Graphics" }
+    { "name": "Machine Learning" },
+    { "name": "Computational Chemistry" },
+    { "name": "SQL/NOSQL Databases" },
+    { "name": "Agriculture" },
+    { "name": "Web Development" }
   ],
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "Assembly", "Common Lisp" ]
+      "keywords": [ "C", "C++", "Java", "Javascript", "Assembly", "Prolog", "R", "PHP" ]
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "g++", "TI LaunchPad" ]
+      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "Windows", "VIM", "R Studio", "React", "Bootstrap" ]
+    },
+    {
+      "name": "Quality Assurance",
+      "keywords": [ "Submarines", "Nuclear Reactor Electrical Systems", "Electrical Systems", "Project Management" ]
     }
   ],
   "education": [
@@ -39,33 +41,32 @@
       "studyType": "B.S.",
       "startDate": "2013-09-01",
       "endDate": "Present",
-      "courses": [
-      ]
+      "courses": [ "ICS-111/141/211/212/241/311/312/314/332/390/414/451/461, MATH-241/242/372" ]
     }
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
+      "company": "UH Manoa ICS Department",
+      "position": "Laboratory Assistant",
       "website": "",
-      "startDate": "2015-08-01",
+      "startDate": "2022-01-10",
       "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "summary": "Laboratory Assistant for Intro to Programming, Object Oriented Programming and Discrete Math",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
+        "Help students to understand concepts and build foundations in computer science.",
+        "Develop new ways to deliver complex material to freshman and sophomore students."
       ]
     },
     {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
+      "company": "Hawaiiana Management Company",
+      "position": "Resident Manager at the Namahana Terrace",
       "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
-      "summary": "",
+      "startDate": "2021-08-01",
+      "endDate": "present",
+      "summary": "Grounds-keeping and Logistic Duties",
       "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
+        "Communication and resolution of building issues.",
+        "Answer phone and email responses to Namahana Terrace maintenance queries."
       ]
     }
   ],
