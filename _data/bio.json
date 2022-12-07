@@ -42,6 +42,30 @@
       "startDate": "2013-09-01",
       "endDate": "Present",
       "courses": [ "ICS-111/141/211/212/241/311/312/314/332/390/414/451/461, MATH-241/242/372" ]
+    },
+    {
+      "institution": "Pearl Harbor Naval Shipyard",
+      "area": "Education",
+      "studyType": "Training Specialist",
+      "startDate": "2017-06-01",
+      "endDate": "2017-07-28",
+      "courses": [ "Cirriculum Development, Public Speaking, Training and Technology" ]
+    },
+    {
+      "institution": "Nuclear Power School",
+      "area": "Nuclear Engineering",
+      "studyType": "Qualification",
+      "startDate": "2012-10-01",
+      "endDate": "2013-05-01",
+      "courses": [ "Reactor Electronics, Nuclear Physics, Thermal Dynamics, Chemistry" ]
+    },
+    {
+      "institution": "Electrician A School",
+      "area": "Electrical",
+      "studyType": "Qualification",
+      "startDate": "2011-11-01",
+      "endDate": "2012-06-01",
+      "courses": [ "DC Electrical Theory, AC Electrical Theory, Digital Electronics, EFEM" ]
     }
   ],
   "work": [
@@ -68,11 +92,25 @@
         "Communication and resolution of building issues.",
         "Answer phone and email responses to Namahana Terrace maintenance queries."
       ]
+    },
+    {
+      "company": "US Navy",
+      "position": "Nuclear ELectrician",
+      "website": "",
+      "startDate": "2010-07-07",
+      "endDate": "2019-12-22",
+      "summary": "Qualified Senior in rate and 3M/QA supervisor",
+      "highlights": [
+        "Supervision of shut-down reactor plant",
+        "Maintenance and Battery manager for EE01",
+        "Developed Pearl Harbors first fully automated training system",
+        "Training Specialist, Ships Tag-out officer, Pre-approved tag out program"
+      ]
     }
   ],
   "volunteer": [
     {
-      "organization": "Center for Renewable Energy and Island Sustainability",
+      "organization": "Habitat for Humanity",
       "website": "http://manoa.hawaii.edu/reis",
       "position": "Software Developer",
       "startDate": "2016-01-01",
