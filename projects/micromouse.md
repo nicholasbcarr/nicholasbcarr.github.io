@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/root-scan.png
+image: img/close-roots.png
 title: "Data Driven Agriculture"
 date: 2015
 published: true
