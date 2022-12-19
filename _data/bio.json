@@ -94,6 +94,18 @@
       ]
     },
     {
+      "company": "USDA and UH Manoa",
+      "position": "Research Scientist",
+      "website": "",
+      "startDate": "2022-06-01",
+      "endDate": "2022-08-14",
+      "summary": "Created four different machine learning models to accurately classify maize genotypes by root image scans to support ongoing USDA research.",
+      "highlights": [
+        "Gained experience working with R program language and R studio to implement successful machine models.",
+        "Collaborated with biologists and natural resource management experts to deliver a system catered to their needs."
+      ]
+    },
+    {
       "company": "US Navy",
       "position": "Nuclear ELectrician",
       "website": "",
