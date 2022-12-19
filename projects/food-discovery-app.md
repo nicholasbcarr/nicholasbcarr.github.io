@@ -38,7 +38,7 @@ summary: Working as a team we implemented a University of Hawaii at Manoa style 
 
 <div class="ui large rounded images">
 
-  <img class="ui image" src="../../proff_port_backup/images/food-items.png">
+  <img class="ui image" src="../img/food-items.png">
 
 </div>
 
@@ -59,7 +59,7 @@ This project put all of the concepts I had learned throughout my time studying c
 
 <div class="ui large rounded images">
 
-  <img class="ui image" src="../../proff_port_backup/images/schema.png">
+  <img class="ui image" src="../img/schema.png">
 
 </div>
 
@@ -72,7 +72,7 @@ Components are the representation portals of the objects stored in a database wh
 
 <div class="ui large rounded images">
 
-  <img class="ui image" src="../../proff_port_backup/images/component.png">
+  <img class="ui image" src="../img/component.png">
 
 </div>
 
@@ -84,7 +84,7 @@ Components are useless without a way for them to be displayed, enter pages. Page
 
 <div class="ui large rounded images">
 
-  <img class="ui image" src="../../proff_port_backup/images/pages.png">
+  <img class="ui image" src="../img/pages.png">
 
 </div>
 
@@ -96,19 +96,19 @@ I enjoyed the concept of being able to control/filter/manage database informatio
 
 <div class="ui large rounded images">
 
-  <img class="ui image" src="../../proff_port_backup/images/admin-navbar.png">
+  <img class="ui image" src="../img/admin-navbar.png">
 
 </div>
 
 <div class="ui large rounded images">
 
-  <img class="ui image" src="../../proff_port_backup/images/vendor-navbar.png">
+  <img class="ui image" src="../img/vendor-navbar.png">
 
 </div>
 
 <div class="ui large rounded images">
 
-  <img class="ui image" src="../../proff_port_backup/images/user-navbar.png">
+  <img class="ui image" src="../img/user-navbar.png">
 
 </div>
 
