@@ -19,7 +19,7 @@ labels:
 
 ---
 
-<img class="ui tiny left circular floated image" src="../../proff_port_backup/images/ESLint.png">
+<img class="ui tiny left circular floated image" src="../img/ESLint.png">
 
 
 ## Art Made Easy

@@ -20,7 +20,7 @@ labels:
 
 ---
 
-<img class="ui tiny left circular floated image" src="../../proff_port_backup/images/dog.jpg">
+<img class="ui tiny left circular floated image" src="../img/dog.jpg">
 
 ## The Rookie Software Engineer
 

@@ -35,7 +35,7 @@ summary: My last and final reflections on ICS 314 and all of the software engine
 
 <div class="ui large rounded images">
 
-  <img class="ui image" src="../../proff_port_backup/images/intelliJ-2.png">
+  <img class="ui image" src="../img/intelliJ-2.png">
 
 </div>
 
@@ -54,7 +54,7 @@ Covering 100's of thousands of miles of software engineering terrain was no easy
 
 <div class="ui large rounded images">
 
-  <img class="ui image" src="../../proff_port_backup/images/agile-project.jpg">
+  <img class="ui image" src="../img/agile-project.jpg">
 
 </div>
 

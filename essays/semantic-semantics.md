@@ -22,7 +22,7 @@ labels:
 
 ---
 
-<img class="ui small left circular floated image" src="../../proff_port_backup/images/semantic.png">
+<img class="ui small left circular floated image" src="../img/semantic.png">
 
 ## Anti-Anti-Semantic
 
@@ -60,7 +60,7 @@ Check out this [Island Snow](https://github.com/nicholasbcarr/islandsnow/blob/ma
   
 ## Turning Water into Wine
   
-Learning Semantic UI made me capable relearning HTML and CSS in ways such as putting things into containers, columns, rows and how to put different elements into all these new layouts. It helped me to understand the actual structure of what the empty webpage “looks” like and how elements sit themselves in different layouts. My code also took a nice structure that was easier for me to read, find what I was looking for and attach the appropriate CSS selector to what I wanted to modify. Where I once blindly placed things using the webpage display to see if I even changed anything (which usually nothing worked), I now  code out a good majority of a page before ever looking at it. When I do bring it up finally, I notice I just need some tweaking of a few minor issues and I am done. A week ago, I never thought I would be saying I understand HTML or CSS, but here I am…
+Learning Semantic UI helped me to relearn HTML and CSS by putting different elements into all these new layouts. It helped to understand the actual structure of what the empty webpage “looks” like and how elements sit themselves in different layouts. My code also took a nice structure that was easier for me to read, find what I was looking for, and attach the appropriate CSS selector to what I wanted to modify. Where I once blindly placed things using the webpage display to see if I even changed anything (which usually nothing worked), I now  code out a good majority of a page before ever looking at it. When I do bring it up finally, I notice I just need some tweaking of a few minor issues and I am done. A week ago, I never thought I would be saying I understand HTML or CSS, but here I am…
   
 
   

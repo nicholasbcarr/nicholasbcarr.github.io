@@ -32,7 +32,7 @@ labels:
 
 <div class="ui large rounded images">
 
-  <img class="ui image" src="../images/design-technology.jpg">
+  <img class="ui image" src="../img/design-technology.jpg">
 
 </div>
 
@@ -54,7 +54,7 @@ Volunteer Ally is a small nonprofit startup group that has a simple yet importan
 
 <div class="ui large images">
 
-  <img class="ui image" src="../images/volAllyOrgLibrary.png ">
+  <img class="ui image" src="../img/volAllyOrgLibrary.png ">
 
 </div>
 
@@ -64,7 +64,7 @@ Project Boards work well as they are a good way to track who is really doing wha
 
 <div class="ui large images">
 
-  <img class="ui image" src="../images/agile-project.jpg">
+  <img class="ui image" src="../img/agile-project.jpg">
 
 </div>
 
@@ -77,7 +77,7 @@ Using mongoDB for collections information was a learning experience. This projec
 
 <div class="ui large images">
 
-  <img class="ui image" src="../images/collections.png">
+  <img class="ui image" src="../img/collections.png">
 
 </div>
 
@@ -89,7 +89,7 @@ Components become increasingly powerful the more they are used, or at least in m
 
 <div class="ui large images">
 
-  <img class="ui image" src="../images/photoGallery.png">
+  <img class="ui image" src="../img/photoGallery.png">
 
 </div>
 
@@ -97,12 +97,12 @@ An organization may have completely different image needs or varying amounts of 
 
 <div class="ui large images">
 
-  <img class="ui image" src="../images/greenNav.png">
+  <img class="ui image" src="../img/greenNav.png">
 
 </div>
 <div class="ui large images">
 
-  <img class="ui image" src="../images/blueNav.png">
+  <img class="ui image" src="../img/blueNav.png">
 
 </div>
 <div class="ui large images">
@@ -110,7 +110,7 @@ An organization may have completely different image needs or varying amounts of 
 </div>
 <div class="ui large images">
 
-  <img class="ui image" src="../images/brownNav.png">
+  <img class="ui image" src="../img/brownNav.png">
 
 </div>
 
@@ -122,7 +122,7 @@ Learning to use github has been quite a treat. It is not fool proof, but being a
 
 <div class="ui large images">
 
-  <img class="ui image" src="../images/github.png">
+  <img class="ui image" src="../img/github.png">
 
 </div>
 
@@ -134,7 +134,7 @@ Filtering the collections we had implemented was very challenging but equally as
 
 <div class="ui large images">
 
-  <img class="ui image" src="../images/filterPage.png">
+  <img class="ui image" src="../img/filterPage.png">
 
 </div>
 
@@ -142,7 +142,7 @@ The previous mention of importance of logic when designing the structure of coll
 
 <div class="ui large images">
 
-  <img class="ui image" src="../images/filterOrg.png">
+  <img class="ui image" src="../img/filterOrg.png">
 
 </div>
 
