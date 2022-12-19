@@ -84,7 +84,7 @@
     {
       "company": "Hawaiiana Management Company",
       "position": "Resident Manager at the Namahana Terrace",
-      "website": "http://www.hawaii.edu/its/",
+      "website": "https://www.hmcmgt.com/",
       "startDate": "2021-08-01",
       "endDate": "present",
       "summary": "Grounds-keeping and Logistic Duties",
@@ -124,13 +124,13 @@
     {
       "organization": "Habitat for Humanity",
       "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
+      "position": "General Volunteer",
       "startDate": "2016-01-01",
       "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
+      "summary": "Small scale construction projects to generate comfortable shelter for those less fortunate.",
       "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
+        "Start to finish single bedroom homes in King Bay, Georgia.",
+        "Site preparations for larger scale home construction projects in Virginia Beach, VA."
       ]
     },
     {
@@ -149,18 +149,36 @@
   ],
   "awards": [
     {
-      "title": "B+ Scholarship",
-      "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
+      "title": "Deans List",
+      "date": "Spring 2020, Fall 2020, Spring 2021, Fall 2021, Spring 2022",
+      "awarder": "University of Hawaii",
+      "summary": "Awarded to >3.5 GPA"
     },
     {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
+      "title": "Navy Service and Achievement Medal",
+      "date": "2012",
+      "awarder": "Commander Palmer",
+      "summary": "Awarded for assisting the opposite crew underway with initial sea trials testing for SSBN-736."
+    },
+    {
+      "title": "Navy Service and Achievement Medal",
+      "date": "2016",
+      "awarder": "Commander Schupp",
+      "summary": "Awarded for improvement of systems monitoring data recording and analysis to better streamline performance monitoring for ships systems overall saving 100's of man-hours a year."
+    },
+    {
+      "title": "Navy Service and Achievement Medal",
+      "date": "2018",
+      "awarder": "Captain Blake",
+      "summary": "Awarded for off-duty support for training and qualifying military reserve members in order to generate man-hours placed towards shipyard testing in an extremely time sensitive manner."
+    },
+    {
+      "title": "Navy Service and Achievement Medal",
+      "date": "2019",
+      "awarder": "Commander Kepper",
+      "summary": "Awarded for full automation of one of PHNSY/IMF largest qualification programs. The automated training process allowed for free-flow qualifications saving thousands of man-hours while also preventing work stoppages. The process developed will pave the way for other required qualification courses across all shipyards, both national and international."
     }
-  ],
+      ],
   "references": [
     {
       "name": "Available upon request"
