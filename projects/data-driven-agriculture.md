@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/maize.png
 title: "Data Driven Agriculture"
-date: 2015
+date: 2022
 published: true
 labels:
   - Robotics
