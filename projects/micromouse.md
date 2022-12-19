@@ -1,8 +1,8 @@
 ---
 layout: project
 type: project
-image: img/micromouse/micromouse-square.jpg
-title: "Micromouse"
+image: img/root-scan.png
+title: "Data Driven Agriculture"
 date: 2015
 published: true
 labels:
