@@ -4,7 +4,7 @@ layout: project
 
 type: project
 
-image: img/photoGallery.png
+image: img/volunteerAllyLanding.png
 
 title: Volunteer Ally
 
