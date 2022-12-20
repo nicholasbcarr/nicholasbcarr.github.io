@@ -4,7 +4,7 @@ layout: essay
 
 type: essay
 
-title: Machine Learning and Agriculture
+title: Machine Learning and Agricultural Sustainability
 
 # All dates must be YYYY-MM-DD format!
 
@@ -30,7 +30,7 @@ labels:
 
 ---
 
-<div class="ui large rounded images">
+<div class="ui medium rounded images">
 
   <img class="ui image" src="../img/design-technology.jpg">
 
