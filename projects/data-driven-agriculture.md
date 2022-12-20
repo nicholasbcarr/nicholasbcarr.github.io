@@ -20,7 +20,7 @@ summary: "Used machine learning algorithms to recommend various maize genotypes 
 
 An opportunity to learn and explore data science while gaining experience with machine learning algorithms. The above is the final poster that summarized what we did and how we achieved it.
 
-A detailed version of the entire project can be seen here: [REEU Data Driven Agriculture](https://nicholasbcarr.github.io/essays/nonprofit-software-engineer.html)
+A detailed version of the entire project can be seen here: [REEU Data Driven Agriculture](https://nicholasbcarr.github.io/essays/data-driven-agriculture.html)
 
 Here is some code that illustrates how we read values from the line sensors:
 

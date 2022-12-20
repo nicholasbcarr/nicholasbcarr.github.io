@@ -54,7 +54,7 @@ This is the link to the user guide I created for the web application we created 
 
 ## Summary of My Experience
 
-This was my first project working for an actual organization and using the abilities I have learned so far to implement the vision of another person. Here is a summary of my experience with the class and project! [Volunteer Ally Project Summary](https://nicholasbcarr.github.io/essays/nonprofit-software-engineer.html)
+This was my first project working for an actual organization and using the abilities I have learned so far to implement the vision of another person. Here is a summary of my experience with the class and project! [Volunteer Ally Project Summary](https://nicholasbcarr.github.io/essays/the_nonprofit_software_engineer.html)
 
 
 
