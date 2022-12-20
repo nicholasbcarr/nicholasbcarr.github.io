@@ -6,9 +6,11 @@ title: "Data Driven Agriculture"
 date: 2022-08-07
 published: true
 labels:
-  - Robotics
-  - Arduino
-  - C++
+  - R programming Language
+  - R studio
+  - Agriculture
+  - Machine Learning
+  - USDA
 summary: "Used machine learning algorithms to recommend various maize genotypes to farmers with differing soil makeups."
 ---
 
@@ -22,18 +24,20 @@ An opportunity to learn and explore data science while gaining experience with m
 
 A detailed version of the entire project can be seen here: [REEU Data Driven Agriculture](https://nicholasbcarr.github.io/essays/data-driven-agriculture.html)
 
-Here is some code that illustrates how we read values from the line sensors:
+Here is some code that illustrates how we generated models after cleaning and processing the data we collected from growing our own maize genotypes:
 
-```cpp
-byte ADCRead(byte ch)
-{
-    word value;
-    ADC1SC1 = ch;
-    while (ADC1SC1_COCO != 1)
-    {   // wait until ADC conversion is completed   
-    }
-    return ADC1RL;  // lower 8-bit value out of 10-bit data from the ADC
-}
-```
+<div class="ui large images">
 
-You can learn more at the [UH Micromouse News Announcement](https://manoa.hawaii.edu/news/article.php?aId=2857).
+  <img class="ui image" src="../img/code1.png">
+
+</div>
+
+<div class="ui large images">
+
+  <img class="ui image" src="../img/code2.png">
+
+</div>
+
+
+
+The website for the entire research project: [REEU Data Driven Agriculture](https://cms.ctahr.hawaii.edu/reeu/).
