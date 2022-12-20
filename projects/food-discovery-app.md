@@ -4,7 +4,7 @@ layout: project
 
 type: project
 
-image: img/kanak-attack.jpg
+image: img/food-project-cover.png
 
 title: Kanak Attack Manoa (Food Discovery App)
 
