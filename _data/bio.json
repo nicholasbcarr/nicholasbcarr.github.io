@@ -15,10 +15,11 @@
   },
   "interests": [
     { "name": "Machine Learning" },
-    { "name": "Computational Chemistry" },
+    { "name": "Data Networks" },
     { "name": "SQL/NOSQL Databases" },
     { "name": "Agriculture" },
-    { "name": "Web Development" }
+    { "name": "Data Visualization" },
+    { "name": "Swell Forecasting" }
   ],
   "skills": [
     {
