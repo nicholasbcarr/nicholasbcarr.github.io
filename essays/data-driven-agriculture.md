@@ -30,12 +30,6 @@ labels:
 
 ---
 
-<div class="ui medium rounded images">
-
-  <img class="ui image" src="../img/design-technology.jpg">
-
-</div>
-
 - [Intro](#improving-the-land)
 - [Project Management](#agile-project-management)
 - [Using Collections](#meteor-collections)
@@ -52,7 +46,7 @@ labels:
 
 The REEU experience was more than learning about new program languages and the science behind agricultural sustainability. Our cohort was fortunate to volunteer and aid food forest projects and help with planting sustainable agriculture projects. We also had the luxury of observing research projects aimed at restoring native plants while simultaneously expelling invasive agriculture and pests. Before this experience, I had never imagined a field in which computer science and conservation combined and hope that this was not my last chance to be involved. It is important to mention these bonus experiences before getting into the technical things. The research we monitored in action was heavily assisted by technology and the processing of large data sets. These field trips allowed us to see that the work we were doing in the lab was not just homework or projects, but necessary to push for food security and sustainability on a national level. Lastly, it was nice to have an in-person team of coworkers for the first time since covid-19.
 
-<div class="ui large images">
+<div class="ui medium images">
 
   <img class="ui image" src="../img/data-pic.jpeg ">
 
