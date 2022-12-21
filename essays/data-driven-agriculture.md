@@ -31,7 +31,7 @@ labels:
 ---
 
 - [Intro](#improving-the-land)
-- [Project Management](#agile-project-management)
+- [Project Management](#harvesting-the-data)
 - [Using Collections](#meteor-collections)
 - [Building With Components](#building-with-components)
 - [Github](#github)
@@ -52,15 +52,15 @@ The REEU experience was more than learning about new program languages and the s
 
 </div>
 
-## Agile Project Management
+## Harvesting the Data
 
-Project Boards work well as they are a good way to track who is really doing what. Another benefit is that even if someone is not doing something, those tasks do not get forgotten about and eventually get picked up either way.
+In order to utilize machine learning algorithms, large amounts of training data are required. A unique part of this experience was that each member grew 24 plants of a specific genotype, mine was the standard, [B-73](https://academic.oup.com/plphys/article/156/4/1679/6108850). As a result, there were 12 inbred lines of maize in which 100's of data-points were collected over a three week growing period. Interestingly, a maize plant can be fully classified after it completes its growing of its fourth leaf. This inherent characteristic of maize allowed for meaningful data to be generated in a short period of time. Hawaii is used to test new genotypes for a wide set of agriculture because its environment is perfect for growing seeds year round. Upon full maturity of our plants, we dissected each one into root and shoot systems for multi-path research. 
 
-<div class="ui large images">
+My research focus was on root system architecture meaning that I had to clean and scan all of the roots in order to generate the data I would later use to train my algorithms. Direct root system scans would have been a quicker to process, but the Rhizovison image processor allowed for quantification of the images into 120 data points per plant. Further separating root structures into primary, seminal, and crown roots ended up resulting in more accurate algorithm identification.
 
-  <img class="ui image" src="../img/agile-project.jpg">
+After tending my plants and measuring their leaves in a greenhouse, in the Hawaiian summer sun at noon every day, one could say I was ready to "harvest the data."
 
-</div>
+<img width="200px" class="rounded float-start pe-4" src="../img/root-scan.png">
 
 The projects boards prevented "double work" the whole semester, which is great because many times in group experiences, the same task will be completed twice. Excellent project management means that no matter the state of the project, work can be done on a specific issue without knowledge of anything else in the works. This is a powerful tool when correctly applied and I grow respect for it with each use.
 
