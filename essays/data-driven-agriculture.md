@@ -31,9 +31,9 @@ labels:
 ---
 
 - [Intro](#improving-the-land)
-- [Project Management](#harvesting-the-data)
-- [Using Collections](#meteor-collections)
-- [Building With Components](#building-with-components)
+- [Data Farming](#harvesting-the-data)
+- [Variance](#determining-variance-across-inbreds)
+- [Training the Machine Learning Algorithms](#feeding-the-machine)
 - [Github](#github)
 - [Filtering Collections](#filtering-collections)
 - [Human to Human Communications](#human-to-human-interfacing)
@@ -62,19 +62,26 @@ My research focus was on root system architecture meaning that I had to clean an
 
 After tending my plants and measuring their leaves in a greenhouse, in the Hawaiian summer sun at noon every day, one could say I was ready to "harvest the data."
 
-## Meteor Collections
+## Determining Variance Across Inbreds
 
-Using mongoDB for collections information was a learning experience. This project required a wide variety of collections whose access were granted by user roles. Organization/Volunteer/Admin profile collections, opportunity collections, and photo gallery collections store user information.  A lesson learned from this project is to spend more time in collections logic. Although the collections implemented for volunteer ally worked to meet the needs of final presented application, a better initial plan would have made the final push a little easier. There was not a lot of time to fully plan due to the dynamics and collections changing as the project evolved. Having a clear vision of the application is required earlier because as old logic roots itself deeper in the application code, the more difficult it becomes to remove. The application could have been much simpler in implementation (hindsight is always 20/20 vision) if 3 collections were used instead making for easier fetching of data. Here are some opportunity cards rendered from part of a collection:
+<img width="200px" class="rounded float-start pe-4" src="../img/pca_anal.png">
 
-<div class="ui large images">
+Although the Rhizovision software converted root scans to a large number of data points, determining variance and visualizing the data was needed to guide our research. Principle component analysis is an automated way to achieve this. After scrubbing the data we fed it to a PCA function which not only determined the data fields with the highest variance but allowed for 2-d and 3-d cluster visualization. The PCA was paramount in tuning the algorithms we tested to get satisfactory results. It can be seen in the PCA model that there is very marginal separation between inbreds but still enough to tune the algorithms. PCA results were then fed to each of the four algorithms we tested.
 
-  <img class="ui image" src="../img/collections.png">
+PCA not only provided an input data set to the machine learning algorithms but also a path to rooting out highly confused genotypes to exclude in other runs. In majority, the inaccurately classified genotypes were clustered together with others. We found using these results to pluck genotypes from our tests to improve algorithm performance!
 
-</div>
+Together, 8 data sets were prepared using both PCA results and the terminal data set as follows:
 
-Throughout this project I learned via lesson and struggle, the importance of having one or multiple collections for certain types of data. This lesson should project itself into all my future software engineering experiences or any endeavor involving database logic.
+1. Terminal data (no cleaning)
+2. Terminal data, 1st highest confused removed
+3. Terminal data, 1st and 2nd highest confused removed
+4. Terminal data, 1st, 2nd, and 3rd highest confused removed
+5. PCA output (unmodified)
+6. PCA output, 1st highest confused removed
+7. PCA output, 1st and 2nd highest confused removed
+8. PCA output, 1st, 2nd, and 3rd highest confused removed
 
-## Building with Components
+## Feeding the Machine
 
 Components become increasingly powerful the more they are used, or at least in my case. The formality of a component allows for schemas and databases to change, while still staying relevant to the initial information. The photo gallery component:
 
