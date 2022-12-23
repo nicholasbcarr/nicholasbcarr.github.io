@@ -85,6 +85,8 @@ Together, 8 data sets were prepared using both PCA results and the terminal data
 
 The four algorithms I tested were K Nearest Neighbors, Support Vector Machine, Random Forest, and neural network. The poster shows a graph that rates each machine learning models performance on each of the 8 data sets and a confusion matrix for its best performance. At this point we were not only trying to accurately classify genotypes by root system but also make our own predictions on how each model would perform given the data set. Although seperated clusters of data are ideal for all situations, these clusters are remain more important for SVM and KNN algorithms. In short, these algorithms can make decisions by associating a cluster of data to its nearest cluster. What makes this extremely powerful is that the math can be done with almost infinite dimensions, impossible to do as a human. In our case, we had 32 dimensions (32 columns in an excel spreadsheet) of terminal data. ([jump to poster](#final-poster))
 
+Examples of data points: root surface area, root length, root diameter, root type (crown, seminal, primary)...
+
 <img width="200px" class="rounded float-start pe-4" src="../img/knn.png">
 
 K-Nearest Neighbors (KNN) does exactly as its name suggests. A finite K value is used to make its final decision. The data is either an individual point, or a cluster of points representing an "object" in space. Using distance, the algorithm determines the k nearest neighbors to the point and weighs their distance to their class. "Averaging" all of this data gives the most likely class of object as decided by the machine model. PCA data with the three most overlapping clusters removed was obviously the best set of data for this algorithm.
@@ -95,7 +97,7 @@ Support Vector Machines (SVM) use functions to separate objects in space. The mo
 
 <img width="200px" class="rounded float-start pe-4" src="../img/random-forest.png">
 
-Random Forest (RF) is 
+Random Forest (RF) is different in that it builds decision trees in which its leaves are the classifications or genotypes for our purposes. I originally thought that random forest would operate best with the PCA data but the computational power of a decision tree is almost unimaginable. It performed best with terminal data where the genotypes removed were the ones it confused most from the terminal data set. The difference between the terminal data and PCA output is that the later is broken into 10 components in which 95% of the variance is explained and the first had all data points.
 
 ## Github
 
