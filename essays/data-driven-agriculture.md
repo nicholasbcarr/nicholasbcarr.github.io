@@ -91,7 +91,11 @@ K-Nearest Neighbors (KNN) does exactly as its name suggests. A finite K value is
 
 <img width="200px" class="rounded float-start pe-4" src="../img/svm.png">
 
+Support Vector Machines (SVM) use functions to separate objects in space. The model classifies objects within the bounds of the chosen function to be of the same. The error is determined by finding which objects in the bounds that are the wrong class. I used a polynomial of factor 6 for separation, and as expected the PCA data with the most similar classes removed showcased the best SVM performance. It would be interesting to come back to this after a linear algebra course and see how much this could be improved.
 
+<img width="200px" class="rounded float-start pe-4" src="../img/random-forest.png">
+
+Random Forest (RF) is 
 
 ## Github
 
