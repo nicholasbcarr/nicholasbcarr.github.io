@@ -34,10 +34,7 @@ labels:
 - [Data Farming](#harvesting-the-data)
 - [Variance](#determining-variance-across-inbreds)
 - [Training the Machine Learning Algorithms](#feeding-the-machine)
-- [Github](#github)
-- [Filtering Collections](#filtering-collections)
-- [Human to Human Communications](#human-to-human-interfacing)
-- [Customer Expectations](#customer-expectations)
+- [Neural Networking with "Small Data"](#no-success-comes-without-failure)
 - [The Final Result](#recommending-genotypes)
 - [Click Me to View Project Page](https://uh-manoa-meteorites.github.io/)
 
@@ -97,73 +94,31 @@ Support Vector Machines (SVM) use functions to separate objects in space. The mo
 
 <img width="200px" class="rounded float-start pe-4" src="../img/random-forest.png">
 
-Random Forest (RF) is different in that it builds decision trees in which its leaves are the classifications or genotypes for our purposes. I originally thought that random forest would operate best with the PCA data but the computational power of a decision tree is almost unimaginable. It performed best with terminal data where the genotypes removed were the ones it confused most from the terminal data set. The difference between the terminal data and PCA output is that the later is broken into 10 components in which 95% of the variance is explained and the first had all data points.
+Random Forest (RF) is different in that it builds decision trees in which its leaves are the classifications or genotypes for our purposes. I originally thought that random forest would operate best with the PCA data but the computational power of a decision tree is almost unimaginable. It performed best with terminal data where the genotypes removed were the ones it confused most from the terminal data set. The difference between the terminal data and PCA output is that the later is broken into 10 components in which 95% of the variance is explained and the first had all data points. We hypothesize that it is more difficult to over-fit a random forest than it is for SVM or KNN.
 
-## Github
+## No Success Comes without Failure
 
-Learning to use github has been quite a treat. It is not fool proof, but being able to preserve the state of the working application saved my team on multiple occasions. This project had numerous moving pieces making it difficult to determine when and where new code might affect something unrecognized to that team member. All in all, Github allows for team members to work on tasks simultaneously when correctly using Github thus allowing for Agile Project Management.
+<img width="200px" class="rounded float-start pe-4" src="../img/neural-net.png">
 
-<div class="ui large images">
+Training neural networks is difficult and time consuming to say the least. Neural nets also perform better as more data is processed. Although our data set was large in human eyes, there would need to be quite a bit more to make it "useful" setting one up. We are displaying ours as we put in quite a bit of effort for only a 25% accurate classification rating. The term "black box" is thrown around a lot in the machine learning industry and it means that after initial training, nobody can prove how or why the network behaves as it does (a generalization).
 
-  <img class="ui image" src="../img/github.png">
+## Modeling the Models
 
-</div>
+<img width="200px" class="rounded float-start pe-4" src="../img/ml-comparison.png">
 
-The above is an example of the working main for Volunteer Ally and sublist of all the all the different task branches that were worked on simultaneously throughout the project.
+To compare performance of the different algorithms, I piped portions of each algorithms output into another model that visualizes performance and error between the 4. This project showed me the true power of data visualization. Looking at the raw output of different functions is mind-numbing and requires a deeper understanding to sort. Modeling the data into something visually aesthetic also makes the punch-line easier for everybody (experts and non-experts) to understand.
 
-## Filtering Collections
 
-Filtering the collections we had implemented was very challenging but equally as rewarding when complete. The filter page was one of the last tasks to be completed and involved finding specific characteristics within all collections.
-
-<div class="ui large images">
-
-  <img class="ui image" src="../img/filterPage.png">
-
-</div>
-
-The previous mention of importance of logic when designing the structure of collection was realized in this moment. Using what was there, it only required a few functions manipulating data-types back and forth through multiple collections eventually retrieving what was necessary. Looking back, a better way to do this would have better designed fewer collections and better structuring the schemas. This is a reasonable mistake as my team, and I were all learning throughout the project. Regardless, the filter page came out great and functioned as intended with a little extra effort.
-
-<div class="ui large images">
-
-  <img class="ui image" src="../img/filterOrg.png">
-
-</div>
-
-The above filters volunteer opportunities by organization name and here is the code
-
-```
-const FilterOrganizations = ({ ready }) => {
-const [organizations, setOrganizations] = useState([]);
-const allOrganizations = _.pluck(OrganizationProfiles.find({}, {}).fetch(), 'organizationName');
-const organizationFormSchema = makeOrganizationSchema(allOrganizations);
-const organizationBridge = new SimpleSchema2Bridge(organizationFormSchema);
-const organizationIDs = organizations.map(name => OrganizationProfiles.findDoc({ organizationName: name })._id);
-console.log(organizationIDs);
-const eventOrganizations = OrganizationEvent.find({ organizationID: { $in: organizationIDs } }, {}).fetch();
-const eventIDList = _.uniq(eventOrganizations.map(eventOrganization => eventOrganization.eventID));
-const eventsByOrganization = eventIDList.map(id => Events.findDoc(id));
-console.log(eventOrganizations);
-console.log(eventIDList);
-console.log(eventsByOrganization);
-const submitOrganizations = (data) => {
-setOrganizations(data.organizations);
-};
-
-```
 
 Having an array of opportunity IDs attached to each organization in the organization collection would have been much easier. For filtering the volunteer opportunities by interest, skill or environment type it would have been better to attach the applicable IDs to the opportunity document. Our implementation worked just fine but if I am ever part of up-scaling the project further I would redesign the collections as finding data would become slow as more opportunities are added.
 
-## Human to Human Interfacing
-
-While some enjoy the amenities of their own home in the past few years, we have missed out on real team member interaction. I really enjoyed being back with a team in person and interacting with others working towards the same goal. Physical interaction was a large benefit compared to my last project where nobody ever even saw each other (I could walk right passed an old team member and never even notice). I believe this to be a huge advantage when assigning tasks, determining strengths and weaknesses of team members, etc... I would not say this is a necessary thing, but inspiration can result from team members feeding off each other's momentum when executing tasks. My team formed a good bond, and there was never an issue of having each other's backs when someone was having a rough midterms week or rough week in general. Our weekly interaction kept us on track towards our goals and when one person was focused, we all were focused.
-
-## Customer Expectations
-
-Managing customer expectations was an interesting concept because of course any good developer wants to anything and everything to make an application its best. The customer has no concept of how difficult things are to implement and us as students were eager to develop. In the beginning it was easy to go down the rabbit hole of functionality within certain components far before they were even implemented. This in my opinion only distracted us from what was current and relevant. As the project widened and time furthered, it became easier to see what was manageable and what wasn't. This is ideal because being in a time sensitive environment (college) and managing these expectations will make for a much easier time doing so when it is the primary focus. Building a good relationship and staying firm but fair with the customer is a characteristic necessary for being a good software engineer.
 
 ## Recommending Genotypes
 
-The final product will move forward to serve as a baseline to be furthered by classmates interning for Volunteer Ally this summer. Although the app is not currently deployed, the [app](https://github.com/uh-manoa-meteorites/nonprofit-project-template) can be downloaded and ran locally on any machine! The [user/developer guide](https://uh-manoa-meteorites.github.io/) where the functionality is well documented and the instructions for running on your machine! [The UH Manoa Meteorites](https://github.com/uh-manoa-meteorites) was a fun experience and something I know I will always remember.
+<img width="200px" class="rounded float-start pe-4" src="../img/ml-comparison.png">
+
+The machine learning and training was fun and very important to see as a computer science undergrad but all of this research had to have a purpose. Getting a crash course in soil and root biology, we found that we could accurately tune our models to recommend optimal inbreds based on soil physicality. As soil is varies in depth and firmness across the globe, all one needs to know is the parameters of their soil to get pinpoint selection of optimal genotype. Again, this is easier to understand by looking at the graphical model.
+
 
 ## Final Poster
 <div class="ui medium images">
