@@ -38,7 +38,7 @@ labels:
 - [Filtering Collections](#filtering-collections)
 - [Human to Human Communications](#human-to-human-interfacing)
 - [Customer Expectations](#customer-expectations)
-- [Project Page and Code](#product-and-code)
+- [The Final Result](#recommending-genotypes)
 - [Click Me to View Project Page](https://uh-manoa-meteorites.github.io/)
 
 
@@ -58,14 +58,9 @@ The REEU experience was more than learning about new program languages and the s
 
 In order to utilize machine learning algorithms, large amounts of training data are required. A unique part of this experience was that each member grew 24 plants of a specific genotype, mine was the standard, [B-73](https://academic.oup.com/plphys/article/156/4/1679/6108850). As a result, there were 12 inbred lines of maize in which 100's of data-points were collected over a three week growing period. Interestingly, a maize plant can be fully classified after it completes its growing of its fourth leaf. This inherent characteristic of maize allowed for meaningful data to be generated in a short period of time. Hawaii is used to test new genotypes for a wide set of agriculture because its environment is perfect for growing seeds year round. Upon full maturity of our plants, we dissected each one into root and shoot systems for multi-path research. 
 
-My research focus was on root system architecture meaning that I had to clean and scan all of the roots in order to generate the data I would later use to train my algorithms. Direct root system scans would have been a quicker to process, but the Rhizovison image processor allowed for quantification of the images into 120 data points per plant. Further separating root structures into primary, seminal, and crown roots ended up resulting in more accurate algorithm identification.
+My research focus was on root system architecture meaning that I had to clean and scan all of the roots in order to generate the data I would later use to train my algorithms. Direct root system scans would have been a quicker to process, but the Rhizovison image processor allowed for quantification of the images into 120 data points per plant. Further separating root structures into primary, seminal, and crown roots resulted in more accurate classifications.
 
 After tending my plants and measuring their leaves in a greenhouse, in the Hawaiian summer sun at noon every day, one could say I was ready to "harvest the data."
-
-
-
-The projects boards prevented "double work" the whole semester, which is great because many times in group experiences, the same task will be completed twice. Excellent project management means that no matter the state of the project, work can be done on a specific issue without knowledge of anything else in the works. This is a powerful tool when correctly applied and I grow respect for it with each use.
-
 
 ## Meteor Collections
 
@@ -174,9 +169,15 @@ While some enjoy the amenities of their own home in the past few years, we have 
 
 Managing customer expectations was an interesting concept because of course any good developer wants to anything and everything to make an application its best. The customer has no concept of how difficult things are to implement and us as students were eager to develop. In the beginning it was easy to go down the rabbit hole of functionality within certain components far before they were even implemented. This in my opinion only distracted us from what was current and relevant. As the project widened and time furthered, it became easier to see what was manageable and what wasn't. This is ideal because being in a time sensitive environment (college) and managing these expectations will make for a much easier time doing so when it is the primary focus. Building a good relationship and staying firm but fair with the customer is a characteristic necessary for being a good software engineer.
 
-## Product and Code
+## Recommending Genotypes
 
 The final product will move forward to serve as a baseline to be furthered by classmates interning for Volunteer Ally this summer. Although the app is not currently deployed, the [app](https://github.com/uh-manoa-meteorites/nonprofit-project-template) can be downloaded and ran locally on any machine! The [user/developer guide](https://uh-manoa-meteorites.github.io/) where the functionality is well documented and the instructions for running on your machine! [The UH Manoa Meteorites](https://github.com/uh-manoa-meteorites) was a fun experience and something I know I will always remember.
+
+<div class="ui medium images">
+
+  <img class="ui image" src="../img/big-poster.png ">
+
+</div>
 
 
 
