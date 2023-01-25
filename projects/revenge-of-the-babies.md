@@ -14,7 +14,7 @@ labels:
 summary: "A top down dungeon-crawleresque video game in developed in Unity."
 ---
 
-<img src="baby1.png" class="rounded">
+<img src="/img/baby1.png" class="rounded">
 
 ## Why are the babies seeking revenge?
 
@@ -28,10 +28,9 @@ Choose a name for the baby you will be taking control of in this 2-d topdown adv
 
 Throw diapers to stun/distract adults. Use toys you kind find to beat the adults into submission. Use stealth to sneak around undetected to reclaim all of the candy.
 
-## 
+## Basic Storyboard
 
-
-<img class="img-fluid" src="babyScene1.jpg" alt="New York">
+<img class="img-fluid" src="/img/babyScene1.jpg">
 
 
 
