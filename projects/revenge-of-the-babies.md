@@ -14,11 +14,7 @@ labels:
 summary: "A top down dungeon-crawleresque video game in developed in Unity."
 ---
 
-<div class="ui large rounded images">
-
-  <img class="ui image" src="../img/big-poster.png">
-
-</div>
+<img src="baby1.png" class="rounded">
 
 ## Why are the babies seeking revenge?
 
@@ -35,17 +31,9 @@ Throw diapers to stun/distract adults. Use toys you kind find to beat the adults
 ## 
 
 
-<div class="ui large images">
+<img class="img-fluid" src="babyScene1.jpg" alt="New York">
 
-  <img class="ui image" src="../img/babyScene1.jpg">
 
-</div>
-
-<div class="ui large images">
-
-  <img class="ui image" src="../img/code2.png">
-
-</div>
 
 
 
