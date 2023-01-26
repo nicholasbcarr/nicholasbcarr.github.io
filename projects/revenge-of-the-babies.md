@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/baby1.png
+image: img/baby1.jpg
 title: "Revenge of the Babies"
 date: 2023-01-25
 published: true
@@ -14,7 +14,7 @@ labels:
 summary: "A top down dungeon-crawleresque video game in developed in Unity."
 ---
 
-<img src="/img/baby1.png" class="rounded">
+# Revenge of the Babies: Operation Cavity
 
 ## Why are the babies seeking revenge?
 
