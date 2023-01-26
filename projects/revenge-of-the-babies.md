@@ -22,9 +22,7 @@ For to long, disgruntled adults have been stealing candy from babies simply beca
 
 Choose a name for the baby you will be taking control of in this 2-d topdown adventure. Reclaim what is rightfully yours by any means necessary! Stun, destroy or avoid the adults hoarding the candy without raising the alarm. If an adult sees you, they will sound the alarm and swarm you... your only option at this point is violence. 
 
-Stealth: Hide behind obstacles and out of the sight of adults
-Force: Beat the adults senseless with a quiver of toy weapons
-Stun: Throw your poopy diaper to stun the adults as you make off with their candy
+Stealth: Hide behind obstacles and out of the sight of adults. Force: Beat the adults senseless with a quiver of toy weapons. Stun: Throw your poopy diaper to stun the adults as you make off with their candy
 
 ## How to Win
 
