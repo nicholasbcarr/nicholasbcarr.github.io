@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/baby1.jpg
+image: img/baby1.jpeg
 title: "Revenge of the Babies"
 date: 2023-01-25
 published: true
