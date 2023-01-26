@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: img/baby1.jpeg
-title: "Revenge of the Babies"
+title: "Revenge of the Babies: Operation Cavity"
 date: 2023-01-25
 published: true
 labels:
@@ -13,8 +13,6 @@ labels:
   - University of Hawaii @ Manoa
 summary: "A top down dungeon-crawleresque video game in developed in Unity."
 ---
-
-# Revenge of the Babies: Operation Cavity
 
 ## Why are the babies seeking revenge?
 
