@@ -73,24 +73,12 @@
        {
       "company": "Hawaii Pacific Health",
       "position": "Innovation Team",
-      "website": "hph.org",
+      "website": "https://www.hawaiipacifichealth.org/",
       "startDate": "2023-01-21",
       "endDate": "Present",
       "summary": "Redcap DB, Alexa Skills",
       "highlights": [
-        ""
-      ]
-    },
-    {
-      "company": "UH Manoa ICS Department",
-      "position": "Laboratory Assistant",
-      "website": "",
-      "startDate": "2022-01-10",
-      "endDate": "Present",
-      "summary": "Laboratory Assistant for Intro to Programming, Object Oriented Programming and Discrete Math",
-      "highlights": [
-        "Help students to understand concepts and build foundations in computer science.",
-        "Develop new ways to deliver complex material to freshman and sophomore students."
+        "Healthcare Innovation"
       ]
     },
     {
@@ -102,7 +90,19 @@
       "summary": "Grounds-keeping and Logistic Services",
       "highlights": [
         "Communication and resolution of building issues.",
-        "Answer phone and email responses to Namahana Terrace maintenance queries."
+        "Start to finish resolutions of building plumbing, landscaping, and electrical issues."
+      ]
+    },
+    {
+      "company": "UH Manoa ICS Department",
+      "position": "Laboratory Assistant",
+      "website": "",
+      "startDate": "2022-01-10",
+      "endDate": "2023-01-21",
+      "summary": "Laboratory Assistant for Intro to Programming, Object Oriented Programming and Discrete Math",
+      "highlights": [
+        "Help students to understand concepts and build foundations in computer science.",
+        "Develop new ways to deliver complex material to freshman and sophomore students."
       ]
     },
     {
