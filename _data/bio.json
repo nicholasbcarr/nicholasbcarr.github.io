@@ -70,6 +70,17 @@
     }
   ],
   "work": [
+       {
+      "company": "Hawaii Pacific Health",
+      "position": "Innovation Team",
+      "website": "hph.org",
+      "startDate": "2023-01-21",
+      "endDate": "Present",
+      "summary": "Redcap DB, Alexa Skills",
+      "highlights": [
+        ""
+      ]
+    },
     {
       "company": "UH Manoa ICS Department",
       "position": "Laboratory Assistant",
