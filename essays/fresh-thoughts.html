@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Fresh Thoughts on javaScript | Nicholas Carr | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/nicholasbcarr.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Nicholas Carr | Professional Portfolio">
+    <meta property="og:url" content="https://nicholasbcarr.github.io/essays/fresh-thoughts.html">
+    <meta property="og:title" content="Fresh Thoughts on javaScript | Nicholas Carr | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/nicholasbcarr.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/default.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>Fresh Thoughts on javaScript | Nicholas Carr | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Nicholas Carr</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">Fresh Thoughts on javaScript</h1>
+  <span class="date">01 Sep 2021</span>
+  <hr>
+  <p><img class="ui tiny left circular floated image" src="../img/kayak.jpg" /></p>
+
+<h2 id="intro-to-javascript">Intro to javaSCript</h2>
+
+<p>My <em>introduction</em> to javaScript this semester went nicely. This is now the 4th language (java, C, C++ being the others) that I have learned. I remember my first ICS class, my professor said that each time you learn a language it will be easier. When I learned C/C++, I thought maybe this wasn’t true but I realized that when I learned C/C++ that I had properly understood a language for the first time. When I looked backed on some old java programs I wrote, I realized that I fully grasped all the in and outs of that as well.</p>
+
+<h3 id="big-differences">Big Differences</h3>
+
+<p>This week was my introduction to javaScript. My first assignment was to go through a coding bootcamp to solve a variety of small problems to get comfortable with the new syntax and tools. I noticed that javaScript was the easiest to pick up out of everything so far meaning that my old professor was obviously right. After taking ICS-212, javaScript seems to be much looser. The very first difference I noticed was how parameters were passed. I wondered how does the program know. Well, I realized it doesn’t really. Essentially you could pass in any data type to a function and if the data types play nicely with the function it will work even though maybe it wasn’t intended to. I thought this was pretty cool because it is not something I learned how to do in C/C++.</p>
+
+<p>Arrays and objects were the next difference I noticed. In my opinion, building arrays and objects in javaScript is exactly in the middle of objects in java and structures in C/C++. The way they are represented and referenced in javaScript at first seemed kind of funky, but once I grasped how to properly navigate them, I started to enjoy it. Strings are also much less difficult to manipulate as they seem to be stored in an array type structure from the beginning. In C/C++, it was some work to split a string whereas with javaScript it seemed easier (when i learned C/C++ we were limited to certain libraries, data types, and functions).</p>
+
+<h4 id="strive-for-greatness">Strive for Greatness</h4>
+
+<p>My biggest weakness out of the code camp and assignments was the arrow functions. I understand what they do and how they strip away a lot of the typing I have to do, but I guess I need to get to an application standpoint first where I can personally see why it would be preferred over writing a function. So far in my education, I have written everything in a specific format and I think that this semester in javaScript we have the ability to have some freedom in our styling of programs. I look forward to learning more about javaScript and the other new tools it will provide me with.</p>
+
+<p>In conclusion, I am feeling confident when it comes to using javaScript so far. I do know that learning a new language has its up and downs, I will have to be prepared to take on these challenges, but I believe my current knowledge and the resources I have available in class will lead to my ultimate success.</p>
+
+<h5 id="pwod-example">pWod Example</h5>
+
+<p>Here is a small example of our second small excersize used to warm up to javaScript. This function checks a string to make sure there are no repeated characters.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+function isUnique(str) {
+
+  for (let i = 0; i &lt; str.length - 1; i++) {
+
+    for (let j = i + 1; j &lt; str.length; j++) {
+
+      if (str[i] === str[j]) {
+
+        return false;
+
+      }
+
+    }
+
+  }
+
+  return true;  
+
+}
+
+console.log(isUnique('abcde'));   
+
+console.log(isUnique('abcdea')); //test
+
+</code></pre></div></div>
+
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

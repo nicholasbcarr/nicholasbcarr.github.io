@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="One of the Gang | Nicholas Carr | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/nicholasbcarr.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Nicholas Carr | Professional Portfolio">
+    <meta property="og:url" content="https://nicholasbcarr.github.io/essays/gang-of-four.html">
+    <meta property="og:title" content="One of the Gang | Nicholas Carr | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/nicholasbcarr.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/default.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>One of the Gang | Nicholas Carr | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Nicholas Carr</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">One of the Gang</h1>
+  <span class="date">30 Nov 2021</span>
+  <hr>
+  <p><img class="ui medium left circular floated image" src="../img/pattern.png" /></p>
+
+<h2 id="what-i-didnt-know-i-knew">What I Didn’t Know I Knew</h2>
+
+<p>Design patterns as I have learned so far are simple in the fact that we subconsciously follow them even though we may not have been aware of their presence. The first design pattern I realized I had been using most recently was the <a href="https://en.wikipedia.org/wiki/Singleton_pattern">Singleton</a>. In my final project for ICS-314 I have made a few collections with mongo database where these collections are all of the same instance. This makes a lot of sense because it would seem pointless to have more than one database for each subscriber when the database requires similarity across all users. In my project I achieve this by having subscriptions and publications where any user of the app will access the same information (singleton of the database) but will only be able to see that which they are subscribed to or that in which their user role allows them to see. This simplifies code and storage requirements greatly as the app is designed around a fluid ever-changing database that behaves exactly unique to the user and what data they need to see.</p>
+
+<h3 id="model-view-controller">Model View Controller</h3>
+
+<p><img class="ui tiny left circular floated image" src="../img/gang-of-four.png" /></p>
+
+<p>“The Gang of Four” is a book with four authors approaching four design patterns named similar to a band called “Gang of Four”. I am not sure whom inspired whom in this situation but that can be left as history. <a href="https://www.geeksforgeeks.org/mvc-design-pattern/">MVC</a> design pattern I have noticed is similar to the reactive data we have been using in our project application. It allows for the data and what the user views to change in real time to reflect how the user interacts. This pattern lays down a set of guidelines that should be followed when programming as these guidelines hold across all different applications. In a sense, the user will manipulate a controller/controllers that manipulate the model of the application or program and in turn changes what the user sees. It seems to me as though if a program does not follow this design pattern, it would not work to begin with… but I see that it is very possible to obscure the overall goal of an application or program by losing sight of this model.</p>
+
+<h3 id="factories">Factories</h3>
+
+<p><img class="ui tiny left circular floated image" src="../img/factory.png" /></p>
+
+<p>Factories provide many different benefits, aside from polluting the environment. The way I first saw it was through the standard shape example. The shape factory could create a programmer defined combination of shapes without ever showing how the shape is made. If the user wanted a circle, they would get the best circle known to man but not know how they got it because factories allow for that to be “hidden”. <a href="https://www.tutorialspoint.com/design_pattern/factory_pattern.htm">This</a> is how I read about them and the same example was demonstrated in my Professor’s screencast so in case you don’t remember <a href="https://www.tutorialspoint.com/design_pattern/factory_pattern.htm">this</a> is the common way to remember.</p>
+
+<h3 id="big-brother">Big Brother</h3>
+
+<p><img class="ui tiny left circular floated image" src="../img/spy.png" /></p>
+
+<p>With reactivity and responsive applications and programs, <a href="https://en.wikipedia.org/wiki/Observer_pattern">observers</a> are often used when we don’t often realize we are using them. In simple terms, observers will monitor the state of a program or section of one and look for something predetermined to change so the program can react. Observers seem comparable to loop invariants in that it decide when code needs to initiate/terminate. This goes way passed that level but observers are tools we use to look for changes in state or conditions.</p>
+
+<h3 id="clone-wars">Clone Wars</h3>
+
+<p><img class="ui tiny circular floated image" src="../img/clone.png" /></p>
+
+<p>Prototypes are a nice tool that allows a client to “clone” an existing object rather than using a factory to create instances of new objects. My understanding is that this gives the programmer the ability to have prototypes for objects deemed necessary by the user in which they can create an instance of that object with preset variables that can be modified by the user rather than creating a new class. This makes it so the user will never see or receive the concrete code for the class of object they initiated but allows them to modify variables of the object as the programmer deemed fit. It took a moment for me to make a distinction between factories and prototypes but this <a href="https://www.geeksforgeeks.org/prototype-design-pattern/">sketch</a> of prototypes vs. this <a href="https://www.tutorialspoint.com/design_pattern/factory_pattern.htm">sketch</a> of factories helped me see a bit more clearly.</p>
+
+<h3 id="down-to-the-wire">Down to the Wire</h3>
+
+<p>Even though I personally enjoy Wire better than The Gang of Four, I have to say the reading on design patterns is illustrated very clearly but a little hard to wrap a head around. In my opinion, design patterns are subconsciously coded into most programs as they are concrete in there own right but, they are similar to QA in a sense that it is possible to make junk code when not following these preexisting design patterns.</p>
+
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

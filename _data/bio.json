@@ -1,0 +1,186 @@
+{
+  "basics": {
+    "name": "Nicholas Carr",
+    "label": "Student",
+    "picture": "https://github.com/nicholasbcarr.png",
+    "email": "carrn7@hawaii.edu",
+    "phone": "808-633-6550",
+    "website": "https://nicholasbcarr.github.io",
+    "summary": "Recently graduated computer science major and submarine veteran. I am currently working with web development (Entity/.NET), Amazon services, 3D Modeling, and printing at Hawaii Pacific Health. ",
+    "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "profiles": [
+      { "network": "github", "username": "nicholasbcarr", "url": "http://github.com/nicholasbcarr" },
+      { "network": "linkedin", "username": "nicholas-carr-b48460168", "url": "http://linkedin.com/in/nicholas-carr-b48460168/" }
+    ]
+  },
+  "interests": [
+    { "name": "Machine Learning" },
+    { "name": "Data Networks" },
+    { "name": "SQL/NOSQL Databases" },
+    { "name": "Agriculture" },
+    { "name": "Data Visualization" },
+    { "name": "Swell Forecasting" }
+  ],
+  "skills": [
+    {
+      "name": "Languages and Frameworks",
+      "keywords": [ "C", "C++", "Java", "Javascript", "Assembly", "Prolog", "R", "PHP", "Typescript", ".NET", "Microsoft Entity", "BASH" ]
+    },
+    {
+      "name": "Toolsets/OS",
+      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "Windows", "VIM", "R Studio", "React", "Bootstrap" ]
+    },
+    {
+      "name": "Quality Assurance",
+      "keywords": [ "Submarines", "Nuclear Reactor Electrical Systems", "Three Phase Electrical Systems", "DC and Battery Systems", "Project Management", "Maintenance and Training QA Supervisor" ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Hawaii at Manoa, Honolulu, HI",
+      "area": "Computer Science (expected Spring, 2023)",
+      "studyType": "B.S.",
+      "startDate": "2020-01-10",
+      "endDate": "2023-05-13",
+      "courses": [ "ICS-111/141/211/212/241/311/312/314/332/390/414/451/461, MATH-241/242/372" ]
+    },
+    {
+      "institution": "Pearl Harbor Naval Shipyard",
+      "area": "Education",
+      "studyType": "Training Specialist",
+      "startDate": "2017-06-01",
+      "endDate": "2017-07-28",
+      "courses": [ "Curriculum Development, Public Speaking, Training and Technology" ]
+    },
+    {
+      "institution": "Nuclear Power School",
+      "area": "Nuclear Engineering",
+      "studyType": "Qualification",
+      "startDate": "2012-10-01",
+      "endDate": "2013-05-01",
+      "courses": [ "Reactor Electronics, Nuclear Physics, Thermal Dynamics, Chemistry" ]
+    },
+    {
+      "institution": "Electrician A School",
+      "area": "Electrical",
+      "studyType": "Qualification",
+      "startDate": "2011-11-01",
+      "endDate": "2012-06-01",
+      "courses": [ "DC Electrical Theory, AC Electrical Theory, Digital Electronics, EFEM" ]
+    }
+  ],
+  "work": [
+       {
+      "company": "Hawaii Pacific Health",
+      "position": "Innovation Team",
+      "website": "https://www.hawaiipacifichealth.org/",
+      "startDate": "2023-01-21",
+      "endDate": "Present",
+      "summary": "Redcap DB, Alexa Skills",
+      "highlights": [
+        "Healthcare Innovation"
+      ]
+    },
+    {
+      "company": "Hawaiiana Management Company",
+      "position": "Resident Manager at the Namahana Terrace",
+      "website": "",
+      "startDate": "2021-08-01",
+      "endDate": "Present",
+      "summary": "Grounds-keeping and Logistic Services",
+      "highlights": [
+        "Communication and resolution of building issues.",
+        "Start to finish resolutions of building plumbing, landscaping, and electrical issues."
+      ]
+    },
+    {
+      "company": "UH Manoa ICS Department",
+      "position": "Laboratory Assistant",
+      "website": "",
+      "startDate": "2022-01-10",
+      "endDate": "2023-01-21",
+      "summary": "Laboratory Assistant for Intro to Programming, Object Oriented Programming and Discrete Math",
+      "highlights": [
+        "Help students to understand concepts and build foundations in computer science.",
+        "Develop new ways to deliver complex material to freshman and sophomore students."
+      ]
+    },
+    {
+      "company": "USDA and UH Manoa",
+      "position": "Research Scientist",
+      "website": "",
+      "startDate": "2022-06-01",
+      "endDate": "2022-08-14",
+      "summary": "Created four different machine learning models to accurately classify maize genotypes by root image scans to support ongoing USDA research.",
+      "highlights": [
+        "Gained experience working with R program language and R studio to implement successful machine models.",
+        "Collaborated with biologists and natural resource management experts to deliver a system catered to their needs."
+      ]
+    },
+    {
+      "company": "US Navy",
+      "position": "Nuclear Electrician",
+      "website": "",
+      "startDate": "2010-07-07",
+      "endDate": "2019-12-22",
+      "summary": "Qualified Senior in rate and 3M/QA supervisor",
+      "highlights": [
+        "Supervision of shut-down reactor plant",
+        "Maintenance and Battery manager for EE01",
+        "Developed Pearl Harbors first fully automated training system",
+        "Training Specialist, Ships Tag-out officer, Pre-approved tag out program"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Habitat for Humanity",
+      "website": "",
+      "position": "General Volunteer",
+      "startDate": "2016-01-01",
+      "endDate": "Present",
+      "summary": "Small scale construction projects to generate comfortable shelter for those less fortunate.",
+      "highlights": [
+        "Start to finish single bedroom homes in King Bay, Georgia.",
+        "Site preparations for larger scale home construction projects in Virginia Beach, VA."
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Deans List",
+      "date": "Spring 2020, Fall 2020, Spring 2021, Fall 2021, Spring 2022, Fall 2022",
+      "awarder": "University of Hawaii",
+      "summary": "Awarded to >3.5 GPA"
+    },
+    {
+      "title": "Navy Service and Achievement Medal",
+      "date": "2012",
+      "awarder": "Commander Palmer",
+      "summary": "Awarded for assisting the opposite crew underway with initial sea trials testing for SSBN-736."
+    },
+    {
+      "title": "Navy Service and Achievement Medal",
+      "date": "2016",
+      "awarder": "Commander Schupp",
+      "summary": "Awarded for improvement of systems monitoring data recording and analysis to better streamline performance monitoring for ships systems overall saving 100's of man-hours a year."
+    },
+    {
+      "title": "Navy Service and Achievement Medal",
+      "date": "2018",
+      "awarder": "Captain Blake",
+      "summary": "Awarded for off-duty support for training and qualifying military reserve members in order to generate man-hours placed towards shipyard testing in an extremely time sensitive manner."
+    },
+    {
+      "title": "Navy Service and Achievement Medal",
+      "date": "2019",
+      "awarder": "Commander Kepper",
+      "summary": "Awarded for full automation of one of PHNSY/IMF largest qualification programs. The automated training process allowed for free-flow qualifications saving thousands of man-hours while also preventing work stoppages. The process developed will pave the way for other required qualification courses across all shipyards, both national and international."
+    }
+      ],
+  "references": [
+    {
+      "name": "Available upon request"
+    }
+  ]
+}
