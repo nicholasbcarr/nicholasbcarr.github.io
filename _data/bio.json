@@ -6,7 +6,7 @@
     "email": "carrn7@hawaii.edu",
     "phone": "808-633-6550",
     "website": "https://nicholasbcarr.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I hope to continue to learn and further strengthen my communications skills after graduation in Spring 2023.",
+    "summary": "Recently graduated computer science major and submarine veteran. I am currently working with web development (Entity/.NET), Amazon services, 3D Modeling, and printing at Hawaii Pacific Health. ",
     "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
       { "network": "github", "username": "nicholasbcarr", "url": "http://github.com/nicholasbcarr" },
@@ -24,7 +24,7 @@
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "Assembly", "Prolog", "R", "PHP" ]
+      "keywords": [ "C", "C++", "Java", "Javascript", "Assembly", "Prolog", "R", "PHP", "Typescript", ".NET", "Microsoft Entity", "BASH" ]
     },
     {
       "name": "Toolsets/OS",
@@ -41,7 +41,7 @@
       "area": "Computer Science (expected Spring, 2023)",
       "studyType": "B.S.",
       "startDate": "2020-01-10",
-      "endDate": "Present",
+      "endDate": "2023-05-13",
       "courses": [ "ICS-111/141/211/212/241/311/312/314/332/390/414/451/461, MATH-241/242/372" ]
     },
     {
